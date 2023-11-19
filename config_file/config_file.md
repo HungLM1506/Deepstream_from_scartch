@@ -45,9 +45,11 @@
      gpu-id=0
      ...
      num-detectors=2
-     gie-unique-id=1 # Các cấu hình cho mô hình nhận diện khuôn mặt
+     gie-unique-id=1
+     # Các cấu hình cho mô hình nhận diện khuôn mặt
      ...
-     gie-unique-id=2 # Các cấu hình cho mô hình nhận diện đối tượng
+     gie-unique-id=2
+     # Các cấu hình cho mô hình nhận diện đối tượng
      ...
      ```
 

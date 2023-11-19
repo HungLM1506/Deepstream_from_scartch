@@ -40,7 +40,7 @@
    Viết tắt là Generalized Instance Engine - GIE
 
    - Khi bạn có nhiều mô hình nhận diện chạy đồng thời trong một ứng dụng DeepStream, việc sử dụng gie-unique-id giúp phân biệt giữa chúng. Mỗi mô hình được khởi tạo với một gie-unique-id duy nhất, giúp hệ thống theo dõi và quản lý chúng một cách hiệu quả.
-     '''
+     ```
      [property]
      gpu-id=0
      ...
@@ -49,7 +49,7 @@
      ...
      gie-unique-id=2 # Các cấu hình cho mô hình nhận diện đối tượng
      ...
-     '''
+     ```
 
 8. network-type = 0
 

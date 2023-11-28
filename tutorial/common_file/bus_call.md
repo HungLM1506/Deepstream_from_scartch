@@ -1,9 +1,9 @@
 ## Các thông số trong file bus_call
 
-I. Tham só đầu vào 
-    
+I. Tham só đầu vào
+
     1. Bus:
-        
+
     2. Message:
 
     3. Loop:

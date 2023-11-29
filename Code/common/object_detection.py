@@ -31,4 +31,4 @@ def osd_sink_pad_buffer_probe(pad, info, u_data):
         except StopIteration:
             break
     frame_number = frame_meta.frame_num
-    num_rects = frame_meta.num_obj_meta 
+    num_rects = frame_meta.num_obj_meta

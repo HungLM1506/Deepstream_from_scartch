@@ -1,6 +1,6 @@
 from common.create_element import create_element
 from common.bus_call import bus_call
-from common.is_aarch_64 import is_aarch64
+from common.is_aarch_64 import is_aarch_64
 from gi.repository import GObject, Gst
 import gi
 import argparse
@@ -20,10 +20,9 @@ def main():
 
     pipeline = Gst.Pipeline()
 
-    source = create_element("nvarguscamerasrc", "camera-source")
+    source = create_element("filesrc", "file-source")
+    source.set_property('location', 'path/image')
     sink = create_element("nvoverlaysink", "overlay")
-
-    source.set_property('sensor-id', 0)
 
     pipeline.add(source)
     pipeline.add(sink)
